@@ -1,0 +1,17 @@
+{
+  "name": "ycm_server",
+  "version": "1.0.0",
+  "description": "A server for the youcuredme app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "vijaicv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.4",
+    "nodemon": "^1.17.1"
+  }
+}
