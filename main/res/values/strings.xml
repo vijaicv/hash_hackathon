@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">YouCuredMe</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_community_page">CommunityPage</string>
+    <string name="serverurl">http://192.168.43.193:3000</string>
+
+</resources>

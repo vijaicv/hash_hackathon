@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vijaicv.youcuredme.nametag"
+    android:orientation="vertical">
+<android.support.design.widget.TextInputLayout
+    android:hint="Choose a nickname"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="wrap_content">
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="also choose a few topics that interest you!"
+        android:textColor="#000"
+        android:layout_marginVertical="20dp"
+        android:layout_marginLeft="10dp"/>
+    <GridView
+        android:id="@+id/taggrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:numColumns="auto_fit">
+
+    </GridView>
+    <Button
+        android:id="@+id/nextbtn"
+        android:text="Next >"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:background="#304ffe"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_weight="1"/>
+</LinearLayout>
